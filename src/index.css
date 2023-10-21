@@ -9,3 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: Serial_Publication;
+  src: url("./Components/Assets/Serial_Publication.ttf") format("truetype");
+}

@@ -4,17 +4,34 @@
   flex-direction: row;
   justify-content: center;
   justify-items: center;
+  align-items: center;
   position: sticky;
   top: 0;
   left: 0;
+  max-height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #nav-logo {
   max-width: 200px;
 }
 .nav-menu {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   text-decoration: none;
   color: white;
   list-style-type: none;
+  align-items: center;
+  width: 200px;
+}
+
+.nav-menu li {
+  font-family: Serial_Publication;
+  font-size: 1.2rem;
+  padding: 30px;
+}
+
+.nav-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
