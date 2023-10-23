@@ -1,0 +1,84 @@
+.nav-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  align-items: center;
+  width: 200px;
+}
+.nav-menu li {
+  font-family: Serial_Publication;
+  font-size: 1.2rem;
+  padding: 30px;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonLink {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.nav-menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button {
+  font-family: Serial_Publication;
+  font-size: 1.2rem;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  transition: 0.5s;
+  color: black !important;
+  border: none;
+}
+
+.nav-login-cart button:hover {
+  font-family: Serial_Publication;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: darkred;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+.nav-login-cart button:active {
+  box-shadow: inset 0 0 10px #f8a100;
+}
+
+.cart {
+  font-family: Serial_Publication;
+  font-size: 1.2rem;
+  padding: 30px;
+  color: white;
+}
+
+.bracket {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 2px;
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.active {
+  color: darkred;
+}
