@@ -1,15 +1,45 @@
 .popular {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  height: 90vh;
   background: rgb(21, 21, 21);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.popular-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+  align-content: flex-start; /* Align items to the top */
 }
 
 .popular-item {
-  width: 90%;
+  flex: 0 0 calc(20% - 10px); /* Calculate 33.33% width with gap */
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+}
+
+.popular-title {
+  font-family: Serial_Publication;
+  font-size: 2rem;
+  padding-left: 10%;
+  margin: 0;
+  color: white;
+}
+
+.popular-button {
+  font-family: Serial_Publication;
+  font-size: 1.5rem;
+  padding: 5px 20px 5px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.popular-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

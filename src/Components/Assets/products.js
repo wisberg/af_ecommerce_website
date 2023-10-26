@@ -17,6 +17,7 @@ let all_products = [
     image: AF_Shirt_White_Front,
     image_back: AF_Shirt_White_Back,
     price: 30,
+    popular: "y",
     description:
       "Perfect blend of style and comfort. This must-have t-shirt features our iconic logo on both the front and back, making a bold statement wherever you go. Crafted with premium materials, it's the ultimate choice for your everyday wardrobe.",
   },
@@ -27,6 +28,7 @@ let all_products = [
     image: AF_Shirt_B_Front,
     image_back: AF_Shirt_B_Back,
     price: 30,
+    popular: "n",
     description:
       "Perfect blend of style and comfort. This must-have t-shirt features our iconic logo on both the front and back, making a bold statement wherever you go. Crafted with premium materials, it's the ultimate choice for your everyday wardrobe.",
   },
@@ -37,6 +39,7 @@ let all_products = [
     image: AF_Hoodie_W_Front,
     image_back: AF_Hoodie_W_Back,
     price: 60,
+    popular: "y",
     description:
       "Experience the unparalleled comfort and lasting quality of Antique Fists' White Hoodie, expertly crafted with premium materials.",
   },
@@ -47,6 +50,7 @@ let all_products = [
     image: AF_Hoodie_B_Front,
     image_back: AF_Hoodie_B_Back,
     price: 60,
+    popular: "n",
     description:
       "Experience the unparalleled comfort and lasting quality of Antique Fists' Black Hoodie, expertly crafted with premium materials.",
   },
@@ -56,6 +60,7 @@ let all_products = [
     category: "men",
     image: AF_Hat_B,
     price: 25,
+    popular: "y",
     description:
       "Embrace the comfort and style of our Dad Hat, featuring our logo on the front, expertly crafted with premium materials.",
   },
@@ -65,6 +70,7 @@ let all_products = [
     category: "men",
     image: AF_Hat_W,
     price: 25,
+    popular: "y",
     description:
       "Embrace the comfort and style of our Dad Hat, featuring our logo on the front, expertly crafted with premium materials.",
   },
