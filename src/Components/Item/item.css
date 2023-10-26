@@ -1,17 +1,21 @@
 .item {
   max-width: 200px;
+  padding: 10px;
   transition: 0.5s;
   margin: 20px;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   overflow: hidden;
+}
+
+.item:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s;
 }
 
 .item-image {
   background-color: rgb(239, 239, 239);
   margin-bottom: 10px;
-  transform: scale(0.9);
+  object-fit: cover;
 }
 
 .item-image:hover {
@@ -23,13 +27,14 @@
 .item p {
   margin: 6px 0px;
   font-size: 16px;
-  font-family: Serial_Publication;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 100;
   font-size: 12px;
 }
 
 .item-price {
-  font-size: 10px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .item-image {
