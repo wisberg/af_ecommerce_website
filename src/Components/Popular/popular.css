@@ -1,29 +1,15 @@
 .popular {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+  background: rgb(21, 21, 21);
 }
 
 .popular-item {
-  width: 80%;
+  width: 90%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.popular-item > * {
-  flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
-  margin: 10px; /* Add margin for spacing */
-}
-
-@media (max-width: 800px) {
-  .popular-item > * {
-    flex: 0 0 calc(50% - 20px); /* Adjust the width for smaller screens */
-  }
-}
-
-@media (max-width: 500px) {
-  .popular-item > * {
-    flex: 0 0 calc(100% - 20px); /* Full width for even smaller screens */
-  }
+  gap: 30px;
 }

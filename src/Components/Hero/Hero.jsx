@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import hero_logo from "../Assets/AF_Reviving_Legends_W.png";
+import hero_logo from "../Assets/Logos/AF_Reviving_Legends_W.png";
 import hero_video from "../Assets/AF_VIDEO.mp4";
 
 const Hero = () => {

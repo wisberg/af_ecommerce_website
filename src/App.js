@@ -7,8 +7,9 @@ import LoginSignUp from "./Pages/LoginSignUp";
 import ShopCategory from "./Pages/ShopCategory";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
+import Videos from "./Pages/Videos";
 
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/videos" element={<Videos />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/mens" element={<ShopCategory category="mens" />} />
           <Route path="/womens" element={<ShopCategory category="womens" />} />

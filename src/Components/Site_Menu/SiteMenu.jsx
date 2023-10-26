@@ -11,7 +11,11 @@ const SiteMenu = () => {
             Home
           </Link>
         </li>
-        <li>Videos</li>
+        <li>
+          <Link to="/videos" className="link">
+            Videos
+          </Link>
+        </li>
         <li>
           <Link to="/about" className="link">
             About

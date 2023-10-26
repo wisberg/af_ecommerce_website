@@ -1,5 +1,5 @@
 .item {
-  max-width: 200px;
+  width: 350px;
   padding: 10px;
   transition: 0.5s;
   margin: 20px;
@@ -13,7 +13,7 @@
 }
 
 .item-image {
-  background-color: rgb(239, 239, 239);
+  background: linear-gradient(to bottom, #949494, #b1b1b1);
   margin-bottom: 10px;
   object-fit: cover;
 }
@@ -30,11 +30,13 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 100;
   font-size: 12px;
+  color: white;
 }
 
 .item-price {
   font-size: 12px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
 }
 
 .item-image {
