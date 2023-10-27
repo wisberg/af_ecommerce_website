@@ -1,10 +1,13 @@
 import React from "react";
+import PageHeroTemp from "../Components/PageHeroTemplate/PageHeroTemp";
+import joeLouis from "../Components/Assets/Backgrounds/joeLouis2.jpeg";
 
 const Videos = () => {
   return (
     <div className="videos">
+      <PageHeroTemp image={joeLouis} title="Videos" />
       <blockquote
-        class="tiktok-embed"
+        className="tiktok-embed"
         cite="https://www.tiktok.com/@antiquefists"
         data-unique-id="antiquefists"
         data-embed-type="creator"
