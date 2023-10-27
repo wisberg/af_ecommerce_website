@@ -8,8 +8,8 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={Logo} alt="Antique Fists Logo" className="about-logo" />
-        <h1 className="about-title">About Antique Fists</h1>
+        <h2 className="small-title">About Us</h2>
+        <h1 className="about-title">Antique Fists</h1>
         <p>
           In the dimly lit arenas and smoky corners of history, legends emerged
           with fists of thunder and hearts of gold. At Antique Fists, we pay
