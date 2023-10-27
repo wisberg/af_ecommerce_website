@@ -20,7 +20,7 @@
 .item-image {
   margin-bottom: 10px;
   object-fit: cover;
-  width: 200px; /* Set the desired width */
+  width: 200px;
   height: 250px;
   align-self: center;
 }

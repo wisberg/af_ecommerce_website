@@ -1,6 +1,6 @@
 .popular {
   width: 100%;
-  background: rgb(21, 21, 21);
+  background: var(--background_black);
   padding: 0;
   margin: 0;
   width: 100%;
@@ -11,12 +11,12 @@
 .popular-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center items horizontally */
-  align-content: flex-start; /* Align items to the top */
+  justify-content: center;
+  align-content: flex-start;
 }
 
 .popular-item {
-  flex: 0 0 calc(20% - 10px); /* Calculate 33.33% width with gap */
+  flex: 0 0 calc(20% - 10px);
   display: flex;
   flex-direction: column;
 }

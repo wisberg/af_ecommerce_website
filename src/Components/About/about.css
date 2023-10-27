@@ -1,0 +1,72 @@
+/* Styles for the .about section */
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--background_black);
+  height: 100vh;
+}
+
+.about-left {
+  width: 50%;
+  padding: 20px;
+}
+
+.about-logo {
+  max-width: 200px;
+  padding-left: 5%;
+}
+
+.about-title {
+  font-family: Serial_Publication;
+  font-size: 2rem;
+  padding-left: 10%;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  color: var(--white);
+}
+
+p {
+  padding-left: 10%;
+  font-size: 16px;
+  margin-top: 10px;
+  color: var(--white);
+  margin-top: 15px;
+  font-weight: 100;
+  font-family: Poppins;
+}
+
+.shop-button {
+  margin-left: 10%;
+  padding: 10px 20px; /* Change to your desired button color */
+  color: var(--background_black);
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: var(--white);
+  font-family: Serial_Publication;
+  font-size: 1.2rem;
+  padding: 10px 30px 10px 30px;
+}
+
+.shop-button:hover {
+}
+
+/* Styles for the right side of the .about section */
+.about-right {
+  width: 50%;
+}
+
+.image_1 {
+  max-width: 250px;
+  margin-right: -50px;
+}
+.image_2 {
+  max-width: 350px;
+  height: auto;
+  margin-top: 20px;
+  z-index: -1;
+}
