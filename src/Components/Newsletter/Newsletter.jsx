@@ -9,8 +9,10 @@ const Newsletter = () => {
         Subscribe to our newsletter to stay updated with Antique Fists and our
         offers.
       </p>
-      <input type="email" placeholder="Email" />
-      <button>Subscribe</button>
+      <div className="newsletter-form">
+        <input type="email" placeholder="Email" />
+        <button>Subscribe</button>
+      </div>
     </div>
   );
 };

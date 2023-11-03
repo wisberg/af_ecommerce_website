@@ -10,6 +10,28 @@
 
 .newsletter h1 {
   font-family: Serial_Publication;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: white;
+}
+
+.newsletter p {
+  font-family: Poppins;
+  font-size: 1rem;
+  color: white;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsletter-form input {
+  padding: 10px 40px 10px 40px;
+}
+
+.newsletter-form button {
+  font-family: Serial_Publication;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
 }
